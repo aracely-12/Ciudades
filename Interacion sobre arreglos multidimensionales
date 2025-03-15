@@ -1,5 +1,5 @@
 temperaturas = [
-    [  # Ciudad 1
+    [  # Ambato
         [  # Semana 1
             {"day": "Lunes", "temp": 22},
             {"day": "Martes", "temp": 24},
@@ -37,7 +37,7 @@ temperaturas = [
             {"day": "Domingo", "temp": 30}
         ]
     ],
-    [  # Ciudad 2
+    [  # Quito
         [  # Semana 1
             {"day": "Lunes", "temp": 15},
             {"day": "Martes", "temp": 16},
@@ -75,7 +75,7 @@ temperaturas = [
             {"day": "Domingo", "temp": 25}
         ]
     ],
-    [  # Ciudad 3
+    [  # Riobamba
         [  # Semana 1
             {"day": "Lunes", "temp": 28},
             {"day": "Martes", "temp": 29},
@@ -116,7 +116,7 @@ temperaturas = [
 ]
 
 # Calcular el promedio de temperaturas para cada ciudad y semana
-ciudades = ["Ciudad 1", "Ciudad 2", "Ciudad 3"]
+ciudades = ["Ambato", "Quito", "Riobamba"]
 
 for ciudad_idx, ciudad in enumerate(temperaturas):
     for semana_idx, semana in enumerate(ciudad):
